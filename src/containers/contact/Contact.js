@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
@@ -33,9 +33,9 @@ export default function Contact() {
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={"tel:" + "9381983708"}
                   >
-                    {contactInfo.number}
+                    {"+91 9381983708"}
                   </a>
                   <br />
                   <br />
@@ -43,25 +43,16 @@ export default function Contact() {
               )}
               <a
                 className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
+                href={"mailto:" + "movvavamsi777@gmail.com"}
               >
-                {contactInfo.email_address}
+                {"movvavamsi777@gmail.com"}
               </a>
               <br />
               <br />
               <SocialMedia />
             </div>
           </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
-          </div>
+          
         </div>
       </div>
     </Fade>

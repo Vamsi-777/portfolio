@@ -17,11 +17,11 @@
 }
 
 .dark-menu li a:hover {
-  background-color: $buttonColor !important;
+  // background-color: rgba(0, 128, 0, 0.13);
 }
 
 .header {
-  background-color: $lightBackground1;
+  // background-color: rgba(0, 128, 0, 0.126);
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -47,7 +47,9 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: $headerHoverBG;
+  border-radius: 20px;
+  
+  background-color: rgb(247, 14, 14);
 }
 
 .header .logo {

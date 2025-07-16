@@ -3,9 +3,11 @@ import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+// import codingPerson from "../../assets/lottie/codingPerson";
+// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import ObitoCodingImage from '../../components/ObitoCodingImage';
+
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -17,14 +19,7 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={codingPerson} />
-            ) : (
-              <img
-                alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
-              ></img>
-            )}
+            <ObitoCodingImage />
           </div>
         </Fade>
         <Fade right duration={1000}>
@@ -32,7 +27,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {" Here is my Interests "}
             </h1>
             <p
               className={

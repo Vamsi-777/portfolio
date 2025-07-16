@@ -28,9 +28,23 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+         
+<div className="logo-container">
+  <img
+    src="https://cdn.prod.website-files.com/64ea57571d50b02423c4505d/64fa2ad6d0f1e9a7e23d5116_akatsuki%20logo.png"
+    alt="Akatsuki Logo"
+    style={{
+      height: '60px',
+      width: 'auto',
+      padding: '5px',
+      objectFit: 'contain',
+      cursor: 'pointer',
+    }}
+  />
+</div>
+
+
+
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -53,38 +67,24 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#opensource">Projects</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Certifications</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#blogs">Education</a>  
             </li>
           )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
-            </li>
-          )}
+          
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
-              <ToggleSwitch />
-            </a>
-          </li>
+          
         </ul>
       </header>
     </Headroom>
