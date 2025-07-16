@@ -31,10 +31,7 @@ export default function Contact() {
             >
               {contactInfo.number && (
                 <>
-                  <a
-                    className="contact-detail"
-                    href={"tel:" + "9381983708"}
-                  >
+                  <a className="contact-detail" href={"tel:" + "9381983708"}>
                     {"+91 9381983708"}
                   </a>
                   <br />
@@ -52,7 +49,6 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
-          
         </div>
       </div>
     </Fade>

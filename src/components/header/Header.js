@@ -28,23 +28,19 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-         
-<div className="logo-container">
-  <img
-    src="https://cdn.prod.website-files.com/64ea57571d50b02423c4505d/64fa2ad6d0f1e9a7e23d5116_akatsuki%20logo.png"
-    alt="Akatsuki Logo"
-    style={{
-      height: '60px',
-      width: 'auto',
-      padding: '5px',
-      objectFit: 'contain',
-      cursor: 'pointer',
-    }}
-  />
-</div>
-
-
-
+          <div className="logo-container">
+            <img
+              src="https://cdn.prod.website-files.com/64ea57571d50b02423c4505d/64fa2ad6d0f1e9a7e23d5116_akatsuki%20logo.png"
+              alt="Akatsuki Logo"
+              style={{
+                height: "60px",
+                width: "auto",
+                padding: "5px",
+                objectFit: "contain",
+                cursor: "pointer"
+              }}
+            />
+          </div>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -77,14 +73,13 @@ function Header() {
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Education</a>  
+              <a href="#blogs">Education</a>
             </li>
           )}
-          
+
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          
         </ul>
       </header>
     </Headroom>

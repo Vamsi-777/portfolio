@@ -26,8 +26,6 @@ export default function StackProgress() {
               );
             })}
           </div>
-
-         
         </div>
       </Fade>
     );

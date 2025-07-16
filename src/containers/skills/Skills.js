@@ -6,8 +6,7 @@ import {Fade} from "react-reveal";
 // import codingPerson from "../../assets/lottie/codingPerson";
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-import ObitoCodingImage from '../../components/ObitoCodingImage';
-
+import ObitoCodingImage from "../../components/ObitoCodingImage";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);

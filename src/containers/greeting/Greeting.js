@@ -22,7 +22,7 @@ export default function Greeting() {
             <div>
               <h1>
                 {"Hi everyone, This is Vamsi Krishna "}
-                
+
                 {/* <span className="wave-emoji">{emoji("👋")}</span> */}
               </h1>
               <p
@@ -32,7 +32,9 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {"Built my first site with more divs than logic  — now I'm cooking with React, Java, and Next.js Learning daily, coding nightly, and occasionally pretending to fix bugs by staring at them.Just trying to turn coffee ☕ into clean code 🧼."}
+                {
+                  "Built my first site with more divs than logic  — now I'm cooking with React, Java, and Next.js Learning daily, coding nightly, and occasionally pretending to fix bugs by staring at them.Just trying to turn coffee ☕ into clean code 🧼."
+                }
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
@@ -50,20 +52,17 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-        <img
-  src="mypic.jpg"
-  alt="Developer at work"
-  style={{
-    width: '100%',
-    maxWidth: '400px',
-    height: '500px',
-    objectFit: 'cover',     // or 'contain' if you don’t want to crop
-    borderRadius: '40px',
-  }}
-/>
-
-
-
+          <img
+            src="mypic.jpg"
+            alt="Developer at work"
+            style={{
+              width: "100%",
+              maxWidth: "400px",
+              height: "500px",
+              objectFit: "cover", // or 'contain' if you don’t want to crop
+              borderRadius: "40px"
+            }}
+          />
         </div>
       </div>
     </Fade>

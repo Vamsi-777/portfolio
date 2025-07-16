@@ -20,7 +20,6 @@ const illustration = {
 };
 
 const greeting = {
-  
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -36,8 +35,6 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/vamsi-krishna1/",
   gmail: "movvavamsi777@gmail.com",
 
-  
-  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -70,7 +67,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-   
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -83,13 +80,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-   
-   
+
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    { 
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
@@ -108,12 +104,11 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Computer Science and Engineering",
       duration: "July 2023- July 2026",
       desc: "Still Studying my btech degree",
-      descBullets: [
-        "Secured CGPA with 7.6 till now"
-      ]
+      descBullets: ["Secured CGPA with 7.6 till now"]
     },
     {
-      schoolName: "Sri Vasavi Institute of Engineering & Technology 2nd Shift Polytechnic College",
+      schoolName:
+        "Sri Vasavi Institute of Engineering & Technology 2nd Shift Polytechnic College",
       logo: require("./assets/images/sviet.png"),
       subHeader: "Computer Science",
       duration: "December 2020 - May 2023",
@@ -206,7 +201,8 @@ const bigProjects = {
     {
       image: require("./assets/images/api.png"),
       projectName: "Weather Info Web App ",
-      projectDesc: "A web application whcih can retrieve the weather of any location by using openWeather API ",
+      projectDesc:
+        "A web application whcih can retrieve the weather of any location by using openWeather API ",
       footerLink: [
         {
           name: "Visit Website",
@@ -223,8 +219,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
-  subtitle:
-    "Certifications and Some Cool Stuff that I have done !",
+  subtitle: "Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -237,7 +232,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-         }
+        }
         // ,
         // {
         //   name: "Award Letter",
@@ -265,7 +260,8 @@ const achievementSection = {
 
     {
       title: "Teachnook",
-      subtitle: "Completed an Internship at Teachnook and successfully got a internship certification",
+      subtitle:
+        "Completed an Internship at Teachnook and successfully got a internship certification",
       image: require("./assets/images/teachnook.png"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -278,7 +274,8 @@ const achievementSection = {
     },
     {
       title: "Cisco",
-      subtitle: "Completed foundational courses in Python programming and Cybersecurity through Cisco Networking Academy, enhancing core coding skills and understanding of modern security principles.",
+      subtitle:
+        "Completed foundational courses in Python programming and Cybersecurity through Cisco Networking Academy, enhancing core coding skills and understanding of modern security principles.",
       image: require("./assets/images/cisco.png"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -291,7 +288,8 @@ const achievementSection = {
     },
     {
       title: "NPTEL",
-      subtitle: "Completed government-recognized courses in Java Programming and Python for Data Science, gaining strong foundations in object-oriented programming and data-driven problem-solving.",
+      subtitle:
+        "Completed government-recognized courses in Java Programming and Python for Data Science, gaining strong foundations in object-oriented programming and data-driven problem-solving.",
       image: require("./assets/images/nptel.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
