@@ -13,7 +13,7 @@ export default function Education() {
             <EducationCard key={index} school={school} />
           ))}
         </div>
-        z
+        
       </div>
     );
   }

@@ -3,13 +3,13 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+// import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  // animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -24,7 +24,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1lumS_ZQQc63pDISkfzBf46-3lbVp_ogM/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -150,24 +150,21 @@ const workExperiences = {
       companylogo: require("./assets/images/smartbridge.jpeg"),
       date: "May 2025 – July 2025",
       desc: "Which is an intership based on Generative AI and IBM cloud technology",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      
     },
     {
       role: "Developer Intern",
       company: "Teachnook",
       companylogo: require("./assets/images/teachnook.png"),
       date: "May 2024 – July 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Completed a web development internship focused on frontend design and project implementation. Gained hands-on experience with real-world web technologies and tools."
     },
     {
       role: "Software Developer Intern",
       company: "Arete It Services",
       companylogo: require("./assets/images/arete.jpeg"),
       date: "July 2022 – Jan 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked on building responsive websites using HTML, CSS, and JavaScript. Also contributed to digital marketing efforts, including content updates and SEO tasks."
     }
   ]
 };
@@ -193,7 +190,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/Vamsi-777/Rhyno-EV-fleet-management"
         }
         //  you can add extra buttons here.
       ]
@@ -206,7 +203,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/Vamsi-777/Weather_API"
         }
       ]
     }
@@ -231,7 +228,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/drive/folders/1ABOywtwH89hWRneYDjHuQZbMVKdReGqL?usp=sharing"
         }
         // ,
         // {
@@ -253,7 +250,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://drive.google.com/drive/folders/1BPAyQfw0o4QlN_gnm_4fTttmxme9PvxG?usp=sharing"
         }
       ]
     },
@@ -265,7 +262,7 @@ const achievementSection = {
       image: require("./assets/images/teachnook.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""}
+        {name: "Certification", url: "https://drive.google.com/file/d/1_W7WAHTiXZLwn8rttirMlu8ugIES4hrK/view?usp=sharing"},
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -279,7 +276,7 @@ const achievementSection = {
       image: require("./assets/images/cisco.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""}
+        {name: "Certification", url: "https://drive.google.com/drive/folders/1HCYttyp4dwmDHQFv1ZKQmKg8mLYaIqre?usp=sharing"}
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -293,7 +290,7 @@ const achievementSection = {
       image: require("./assets/images/nptel.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""}
+        {name: "Certification", url: "https://drive.google.com/drive/folders/1twmhDJRRUDkBVlmI1x66Dw6E_214c2qN?usp=sharing"}
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -306,59 +303,59 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// const blogSection = {
+//   title: "Blogs",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+// const talkSection = {
+//   title: "TALKS",
+//   subtitle: emoji(
+//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+//   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   talks: [
+//     {
+//       title: "Build Actions For Google Assistant",
+//       subtitle: "Codelab at GDG DevFest Karachi 2019",
+//       slides_url: "https://bit.ly/saadpasta-slides",
+//       event_url: "https://www.facebook.com/events/2339906106275053/"
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+// const podcastSection = {
+//   title: emoji("Podcast 🎙️"),
+//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   // Please Provide with Your Podcast embeded Link
+//   podcast: [
+//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Resume Section
 const resumeSection = {
@@ -398,9 +395,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
+ 
   contactInfo,
   twitterDetails,
   isHireable,

@@ -32,6 +32,7 @@ export default function EducationCard({school}) {
                 src={school.logo}
                 alt={school.schoolName}
               />
+              
             </div>
           )}
           <div className="education-card-right">
@@ -68,5 +69,6 @@ export default function EducationCard({school}) {
         <div className="education-card-border"></div>
       </Slide>
     </div>
+    
   );
 }

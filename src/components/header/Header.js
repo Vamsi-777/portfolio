@@ -1,17 +1,16 @@
 import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+// import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
+
   workExperiences,
   skillsSection,
   openSource,
-  blogSection,
-  talkSection,
+ educationInfo,
   achievementSection,
-  resumeSection
+
 } from "../../portfolio";
 
 function Header() {
@@ -20,9 +19,8 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
-  const viewResume = resumeSection.display;
+  const viewBlog = educationInfo.display;
+  // const viewResume = resumeSection.display;
 
   return (
     <Headroom>
@@ -56,6 +54,11 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+           {viewBlog && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
@@ -63,7 +66,7 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
@@ -71,11 +74,7 @@ function Header() {
               <a href="#achievements">Certifications</a>
             </li>
           )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Education</a>
-            </li>
-          )}
+         
 
           <li>
             <a href="#contact">Contact Me</a>
